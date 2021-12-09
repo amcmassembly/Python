@@ -1,4 +1,5 @@
 # Python
+
 A repository to store scripts relating to automation and webscraping with python.
 
 ## Covid-API-call.py 
@@ -29,7 +30,12 @@ Description: This code is designed to scrape the Department of Health Covid-19 P
 
 Libraries: pandas
 
-Description: This code takes the .txt output produced by Webscrape-Power-BI and organises and cleans the data to retrieve only the desired metrics and arrange them in a database which is exported as a .csv.
+Description: This code takes the .txt output produced by Webscrape-Power-BI.py code and organises and cleans the data to retrieve only the desired metrics and arrange them in a database which is exported as a .csv.
 
+## Webscrape-Data-Clean-2.py
+
+Libraries: pandas
+
+Description: Description: This code takes the .txt output produced by Webscrape-Power-BI-2.py code and organises and cleans the data to retrieve only the desired metrics and arrange them in a database which is exported as a .csv.
 
 

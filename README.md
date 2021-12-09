@@ -25,3 +25,11 @@ Libraries: selenium
 
 Description: This code is designed to scrape the Department of Health Covid-19 Power BI Dashboard. The code will wait until the page number element reads "30" as this is the page data is to be scraped from. Once that element is visible the page is scraped and the result is output to a text file. 
 
+## Webscrape-Data-Clean.py
+
+Libraries: pandas
+
+Description: This code takes the .txt output produced by Webscrape-Power-BI and organises and cleans the data to retrieve only the desired metrics and arrange them in a database which is exported as a .csv.
+
+
+

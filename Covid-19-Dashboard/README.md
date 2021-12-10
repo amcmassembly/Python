@@ -4,9 +4,9 @@ This folder stores scripts related to the new RaISe Covid-19 Power BI dashboard.
 
 ## Covid-API-call.py 
 
-Libraries: pandas, uk_covid19
+> Libraries: pandas, uk_covid19
 
-Description: This code is designed to perform an API call to retrieve data from coronavirus.gov.uk. This code is designed to request data pertaining to case numbers, deaths, hospitalisations for England, Northern Ireland, Scotland and Wales. 7-Day Averages (mid-point) are calculated for cases, deaths...etc and the data is transformed and exported to .csv.
+> Description: This code is designed to perform an API call to retrieve data from coronavirus.gov.uk. This code is designed to request data pertaining to case numbers, deaths, hospitalisations for England, Northern Ireland, Scotland and Wales. 7-Day Averages (mid-point) are calculated for cases, deaths...etc and the data is transformed and exported to .csv.
 
 ## Covid-API-call-2.py 
 

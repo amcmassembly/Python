@@ -1,6 +1,6 @@
-# Python
+# Python/Covid-19-Dashboard
 
-A repository to store scripts relating to automation and webscraping with python.
+This folder stores scripts related to the new RaISe Covid-19 Power BI dashboard. These scripts perform a number of functions: retrieving data through API calls and web scraping; calculating 7 day moving averages; organising data in a database; and exporting the data to .csv files. These .csv files are then used by the Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
 
 ## Covid-API-call.py 
 

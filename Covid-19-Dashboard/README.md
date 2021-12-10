@@ -22,7 +22,7 @@ The .csv files output by these scripts are used by the Power BI Covid-19 dashboa
 ## Scripts <a name="paragraph1"></a>
 
 
-#### Covid-API-call  <a name="subparagraph1"></a>
+### Covid-API-call  <a name="subparagraph1"></a>
 
 Libraries: pandas, uk_covid19
 
@@ -30,7 +30,7 @@ Description: This code is designed to perform an API call to retrieve data from 
 
 Last updated: 10/12/2021
 
-#### Covid-API-call-2 <a name="subparagraph2"></a>
+### Covid-API-call-2 <a name="subparagraph2"></a>
 
 Libraries: pandas, uk_covid19
 
@@ -38,7 +38,7 @@ Description: This code is designed to perform an API call to retrieve data from 
 
 Last updated: 10/12/2021
 
-#### Webscrape-Power-BI <a name="subparagraph3"></a>
+### Webscrape-Power-BI <a name="subparagraph3"></a>
 
 Libraries: selenium
 
@@ -46,7 +46,7 @@ Description: This code is designed to scrape the Department of Health Covid-19 P
 
 Last updated: 10/12/2021
 
-#### Webscrape-Power-BI-2 <a name="subparagraph4"></a>
+### Webscrape-Power-BI-2 <a name="subparagraph4"></a>
 
 Libraries: selenium
 
@@ -54,7 +54,7 @@ Description: This code is designed to scrape the Department of Health Covid-19 P
 
 Last updated: 10/12/2021
 
-#### Webscrape-Data-Clean <a name="subparagraph5"></a>
+### Webscrape-Data-Clean <a name="subparagraph5"></a>
 
 Libraries: pandas
 
@@ -62,7 +62,7 @@ Description: This code takes the .txt output produced by Webscrape-Power-BI code
 
 Last updated: 10/12/2021
 
-#### Webscrape-Data-Clean-2 <a name="subparagraph6"></a>
+### Webscrape-Data-Clean-2 <a name="subparagraph6"></a>
 
 Libraries: pandas
 

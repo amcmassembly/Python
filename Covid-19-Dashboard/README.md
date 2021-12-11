@@ -12,7 +12,7 @@
 3. [Future Updates](#future) 
 
 ## Introduction <a name="introduction"></a>
-This folder contains scripts related to the new RaISe Covid-19 Power BI dashboard. These scripts perform a number of functions: 
+This folder contains scripts related to the new automated RaISe Covid-19 Power BI dashboard. These scripts perform a number of functions: 
 
 - retrieving data through API calls and web scraping
 - calculating 7 day moving averages; organising data in a database

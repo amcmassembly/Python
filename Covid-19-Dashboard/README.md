@@ -2,14 +2,16 @@
 
 ## Contents
 1. [Introduction](#introduction)
-2. [Scripts](#paragraph1)
-    1. [Covid-API-call](#subparagraph1)
-    2. [Covid-API-call-2](#subparagraph2)
-    3. [Webscrape-Power-BI](#subparagraph3)
-    4. [Webscrape-Power-BI-2](#subparagraph4)
-    5. [Webscrape-Data-Clean](#subparagraph5)
-    6. [Webscrape-Data-Clean-2](#subparagraph6)
-3. [Future Updates](#future) 
+2. [Videos](#videos)
+    i. [Automated Covid-19 Dashboard](#sub1)  
+3. [Scripts](#paragraph1)
+    i. [Covid-API-call](#subparagraph1)
+    ii. [Covid-API-call-2](#subparagraph2)
+    iii. [Webscrape-Power-BI](#subparagraph3)
+    iv. [Webscrape-Power-BI-2](#subparagraph4)
+    v. [Webscrape-Data-Clean](#subparagraph5)
+    vi. [Webscrape-Data-Clean-2](#subparagraph6)
+4. [Future Updates](#future) 
 
 ## Introduction <a name="introduction"></a>
 This folder contains scripts related to the new automated RaISe Covid-19 Power BI dashboard. These scripts perform a number of functions: 
@@ -20,8 +22,13 @@ This folder contains scripts related to the new automated RaISe Covid-19 Power B
 
 The .csv files output by these scripts are used by the Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
 
-## Scripts <a name="paragraph1"></a>
+## Videos <a name="videos"></a>
 
+### Automated Covid-19 Dashboard-low2.mp4 <a name="sub1"></a>
+
+Description: A downloadable video (20Mb) showing these scripts being used to refresh the Covid-19 dashboard. 
+
+## Scripts <a name="paragraph1"></a>
 
 ### Covid-API-call  <a name="subparagraph1"></a>
 

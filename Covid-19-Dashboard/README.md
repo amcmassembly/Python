@@ -22,6 +22,10 @@ This folder contains scripts related to the new automated RaISe Covid-19 Power B
 
 The .csv files output by these scripts are used by the Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
 
+This folder also contains a video demonstrating the use of these scripts to gather data and refresh the Covid-19 dashboard.
+
+It takes approximately 5-10 minutes to run these scripts and update the dashboard with the latest data. This process eliminates the need to manually trawl through the coronavirus.gov.uk website downloading multiple .csvs and eliminates the need to transform the data contained in those .csvs and perform calculations in Excel. This process also eliminates the need to trawl through Power BI dashboards recording data. These tasks are all performed by the scripts. In addition it reduces human error as the code will always operate in the same way. It can't make incorrect moving average calculations and it can't misread a number or a data label.
+
 ## Videos <a name="videos"></a>
 
 ### Automated Covid-19 Dashboard-low2.mp4 <a name="sub1"></a>

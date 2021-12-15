@@ -18,11 +18,11 @@
 This folder contains scripts related to automating a new Covid-19 Power BI dashboard. This folder also contains a video demonstrating the use of these scripts to gather data and refresh the dashboard. The scripts perform a number of functions: 
 
 - Retrieving [official UK government data and insights on coronavirus](https://coronavirus.data.gov.uk/) through API calls.
-- Retrieving [Department of Health Covid-19 Statistics](https://app.powerbi.com/view?r=eyJrIjoiODJjOGE3ZDUtM2ViNy00YjBlLTllMjktOTNjZjlkODJhODU4IiwidCI6ImU3YTEzYWVhLTk0MzctNGRiNy1hMjJiLWNmYWE0Y2UzM2I2ZSJ9) through webscraping.
+- Retrieving [Department of Health Covid-19 Statistics](https://app.powerbi.com/view?r=eyJrIjoiODJjOGE3ZDUtM2ViNy00YjBlLTllMjktOTNjZjlkODJhODU4IiwidCI6ImU3YTEzYWVhLTk0MzctNGRiNy1hMjJiLWNmYWE0Y2UzM2I2ZSJ9) through webscraping the DoH dashboard.
 - Calculating 7 day moving averages; organising data in a database
 - Exporting the data to .csv files
 
-The .csv files output by these scripts are used by the Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
+The .csv files output by these scripts are used by the newly developed Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
 
 It takes approximately 5-10 minutes for one person to run these scripts and update the dashboard with the latest data. Previously several people were involved in updating mapping data and 7-day moving averages. This process eliminates the need to manually trawl through the coronavirus.gov.uk website downloading multiple .csvs and eliminates the need to transform the data contained in those .csvs and perform calculations in Excel. This process also eliminates the need to trawl through Power BI dashboards recording data. These tasks are all performed by the scripts. 
 

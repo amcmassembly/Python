@@ -1,4 +1,4 @@
-# RaISe Covid-19 Dashboard
+# Covid-19 Dashboard Automation and Webscraping
 
 ## Contents
 1. [Introduction](#introduction)
@@ -16,47 +16,19 @@
 4. [Future Updates](#future) 
 
 ## Introduction <a name="introduction"></a>
-This folder contains scripts related to the new automated RaISe Covid-19 Power BI dashboard. These scripts perform a number of functions: 
 
-- retrieving data through API calls and web scraping
-- calculating 7 day moving averages; organising data in a database
-- and exporting the data to .csv files
+This folder contains scripts related to automating a new Covid-19 Power BI dashboard. This folder also contains a video demonstrating the use of these scripts to gather data and refresh the dashboard. The scripts perform a number of functions: 
+
+- Retrieving [official UK government data and insights on coronavirus](https://coronavirus.data.gov.uk/) through API calls.
+- Retrieving [Department of Health Covid-19 Statistics](https://app.powerbi.com/view?r=eyJrIjoiODJjOGE3ZDUtM2ViNy00YjBlLTllMjktOTNjZjlkODJhODU4IiwidCI6ImU3YTEzYWVhLTk0MzctNGRiNy1hMjJiLWNmYWE0Y2UzM2I2ZSJ9) through webscraping.
+- Calculating 7 day moving averages; organising data in a database
+- Exporting the data to .csv files
 
 The .csv files output by these scripts are used by the Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
 
-This folder also contains a video demonstrating the use of these scripts to gather data and refresh the Covid-19 dashboard.
-
-### Benefits <a name="benefits"></a>
-
-There are a number of benefits to using these scripts:
-
-1. Speed
-
-It takes approximately 5-10 minutes for one person to run these scripts and update the dashboard with the latest data. Previously several people were involved in updating mapping data and 7-day moving averages. 
-
-2. Labour
-
-This process eliminates the need to manually trawl through the coronavirus.gov.uk website downloading multiple .csvs and eliminates the need to transform the data contained in those .csvs and perform calculations in Excel. This process also eliminates the need to trawl through Power BI dashboards recording data. These tasks are all performed by the scripts. 
-
-3. Error
+It takes approximately 5-10 minutes for one person to run these scripts and update the dashboard with the latest data. Previously several people were involved in updating mapping data and 7-day moving averages. This process eliminates the need to manually trawl through the coronavirus.gov.uk website downloading multiple .csvs and eliminates the need to transform the data contained in those .csvs and perform calculations in Excel. This process also eliminates the need to trawl through Power BI dashboards recording data. These tasks are all performed by the scripts. 
 
 The use of these scripts reduces human error as the code will always operate in the same way. It can't make incorrect moving average calculations and it can't misread a number or a data label. The calculations will be performed the same way every time as they are hard coded and the API calls request data straight from the source rather than reading it from a screen. Similarly the webscraping scripts collect data from the underlying source code of the website being scraped.
-
-### Risks <a name="risks"></a>
-
-For all the benefits there are some downsides:
-
-1. Novel Process
-
-This is the first time a script has been written to scrape a Power BI dashboard. If the dashboard being scraped undergoes significant changes the webscraping scripts may not be able to scrape them. If the webscraping fails however it will not crash or destroy the dashboard as the scripts and the dashboard are independent. The scripts would simply fail to update the existing .csv data on ICU beds and hospitalisations and this data would need to be collected manually again until the code is updated to reflect the changes on the dashboard being scraped. 
-
-2. Dependencies
-
-These scripts rely on several libraries (selenium, pandas and Cov19API) and these libraries could be updated. Typically warnings are produced in the command console when using functions which are scheduled to be changed as most developers recognise that library users require advanced notice of changes, so there would be advanced warning of changes and the code could be updated accordingly.
-
-3. Skills/Experience
-
-There are only several people with experience in Python and as far as I know I may be the only person who has scraped a Power BI dashboard, not just in our assembly but more widely throughout parliaments. I can produce documentation to guide people through the process of running the scripts and updating the data but unfortunately if I am not here there's no support.
 
 ## Videos <a name="videos"></a>
 

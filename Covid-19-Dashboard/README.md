@@ -15,7 +15,7 @@
 
 ## Introduction <a name="introduction"></a>
 
-This folder contains scripts related to automating a new Covid-19 Power BI dashboard. This folder also contains a video demonstrating the use of these scripts to gather data and refresh the dashboard. The scripts perform a number of functions: 
+This folder contains scripts related to automating a new Covid-19 Power BI dashboard. This folder also contains a video demonstrating the use of these scripts to gather data and refresh the dashboard. The files can be found above this documentation. The scripts perform a number of functions: 
 
 - Retrieving [official UK government data and insights on coronavirus](https://coronavirus.data.gov.uk/) through API calls.
 - Retrieving [Department of Health Covid-19 Statistics](https://app.powerbi.com/view?r=eyJrIjoiODJjOGE3ZDUtM2ViNy00YjBlLTllMjktOTNjZjlkODJhODU4IiwidCI6ImU3YTEzYWVhLTk0MzctNGRiNy1hMjJiLWNmYWE0Y2UzM2I2ZSJ9) through webscraping the DoH dashboard.

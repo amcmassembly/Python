@@ -2,8 +2,6 @@
 
 ## Contents
 1. [Introduction](#introduction)
-    1. [Benefits](#benefits)
-    2. [Risks](#risks)
 2. [Videos](#videos)
     1. [Automated Covid-19 Dashboard](#sub1)  
 3. [Scripts](#paragraph1)

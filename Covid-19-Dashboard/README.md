@@ -30,9 +30,9 @@ The use of these scripts reduces human error as the code will always operate in 
 
 ## Videos <a name="videos"></a>
 
-### Automated Covid-19 Dashboard-low2.mp4 <a name="sub1"></a>
+### Automation & Webscraping Demonstration.mp4 <a name="sub1"></a>
 
-Description: A downloadable video (20Mb) showing these scripts being used to refresh the Covid-19 dashboard. 
+Description: A downloadable video (~23Mb) showing these scripts being used to refresh the Covid-19 dashboard. 
 
 ## Scripts <a name="paragraph1"></a>
 

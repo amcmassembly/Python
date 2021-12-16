@@ -86,4 +86,4 @@ Last updated: 10/12/2021
 
 ## Future Updates <a name="future"></a>
 
-These scripts have been built as proof of concept work to show the automation potential of python scripting but these scripts will refined and combined into one much shorter programme rather than separate scripts. It is hoped that there will be an ongoing process of review and refinement with regards to these scripts and that this sub directory will be the first of many dedicated to automation and webscraping with python. 
+These scripts have been built as proof of concept work to show the automation potential of python scripting but these scripts will refined and combined into one much shorter programme rather than separate scripts. 

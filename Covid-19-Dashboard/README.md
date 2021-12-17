@@ -24,9 +24,9 @@ This folder contains scripts related to automating a new Covid-19 Power BI dashb
 
 The .csv files output by these scripts are used by the newly developed Power BI Covid-19 dashboard. These scripts automate the process of data gathering and analysis enabling the author to refresh the dashboard with the most recently available data in a matter of minutes. Descriptions of each of the scripts and the libraries required to run them can be found below.
 
-It takes approximately 5-10 minutes for one person to run these scripts and update the dashboard with the latest data. Previously several people were involved in updating mapping data and 7-day moving averages. This process eliminates the need to manually trawl through the coronavirus.gov.uk website downloading multiple .csvs and eliminates the need to transform the data contained in those .csvs and perform calculations in Excel. This process also eliminates the need to trawl through Power BI dashboards recording data. These tasks are all performed by the scripts. 
+It takes approximately 5-10 minutes for one person to run these scripts and update the dashboard with the latest data. This process eliminates the need to manually search through the coronavirus.data.gov.uk website downloading multiple .csvs and eliminates the need to transform the data contained in those .csvs and perform calculations in Excel. This process also eliminates the need to search through Power BI dashboards for data. These tasks are all performed by the scripts. 
 
-The use of these scripts reduces human error as the code will always operate in the same way. The calculations will be performed the same way every time as they are hard coded and the API calls request data straight from the source rather than reading it from a screen. Similarly the webscraping scripts collect data from the underlying source code of the website being scraped.
+The use of these scripts reduces human error as the code will always operate in the same way. The calculations will be performed the same way every time as they are hard coded and the API calls request data straight from the source rather than reading it from a screen. Similarly the webscraping scripts collect data from the HTML file for the website.
 
 ## Videos <a name="videos"></a>
 
